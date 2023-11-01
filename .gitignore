@@ -1,0 +1,11 @@
+models/*
+!models/doc2vec_model
+knowledge_extraction.ipynb
+test.py
+compare_POS.ipynb
+.venv
+text_private.py
+*.xlsx
+*/compare_sentence_similarity_methods.ipynb
+recyclebin
+*private*

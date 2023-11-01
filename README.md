@@ -3,8 +3,9 @@ Explore, execute, and validate a wide range of essential Natural Language Proces
 
 ### Instructions
 
-1. Use Python version 3.11.6
+1. Use Python version 3.8.10
 
-2. For comparing sentence similarity using various techniques, run the `compare_sentence_similarity_methods.ipynb` notebook.
+2. For comparing sentence similarity using various techniques, run the `compare_sentence_similarity_methods_fast.ipynb` notebook. The class Embedder can be used as shown in the script to extract embeddings, and compare sentences 
 
-2. For keyword detection, run `extract_keywords.ipynb` notebook.
+
+3. For keyword detection, run `extract_keywords.ipynb` notebook.
