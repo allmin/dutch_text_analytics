@@ -1,5 +1,5 @@
-models/*
-!models/doc2vec_model
+dutch_text_analytics/models/*
+!dutch_text_analytics/models/doc2vec_model
 knowledge_extraction.ipynb
 test.py
 compare_POS.ipynb
@@ -8,4 +8,9 @@ text_private.py
 *.xlsx
 */compare_sentence_similarity_methods.ipynb
 recyclebin
-*private*
+dutch_text_analytics/*private*
+dutch_text_analytics/demos/outputs/*
+my_*.*
+neo4j Queries
+setup.ipynb
+__pycache__
