@@ -25,7 +25,7 @@ class CustomInstallCommand(install):
 
 setup(
     name='dutch_text_analytics',
-    version='0.1',
+    version='0.1.1',
     description='Dutch Text Analytics is a versatile toolkit designed to facilitate the exploration, execution, and validation of a diverse range of Natural Language Processing (NLP) tasks specifically tailored for the Dutch language. This repository provides a comprehensive set of tools, including code examples, scripts, and resources, to enhance and streamline your Dutch NLP projects.',
     long_description=long_description,
     long_description_content_type='text/markdown',
