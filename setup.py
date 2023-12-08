@@ -1,8 +1,13 @@
 from setuptools import setup, find_packages
 from setuptools.command.install import install
-from distutils.sysconfig import get_python_lib
+# from distutils.sysconfig import get_python_lib
 import spacy
 import nltk
+from pathlib import Path
+
+
+with Path("README.md").open(encoding="utf-8") as f:
+    long_description = f.read()
 
 class CustomInstallCommand(install):
     def run(self):
@@ -21,6 +26,9 @@ class CustomInstallCommand(install):
 setup(
     name='dutch_text_analytics',
     version='0.1',
+    description='Dutch Text Analytics is a versatile toolkit designed to facilitate the exploration, execution, and validation of a diverse range of Natural Language Processing (NLP) tasks specifically tailored for the Dutch language. This repository provides a comprehensive set of tools, including code examples, scripts, and resources, to enhance and streamline your Dutch NLP projects.',
+    long_description=long_description,
+    long_description_content_type='text/markdown',
     packages=find_packages(),
     install_requires=[
         'spacy>=3.0.0',          # Update to the latest version of spacy
