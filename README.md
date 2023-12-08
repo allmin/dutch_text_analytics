@@ -26,7 +26,7 @@ import dutch_text_analytics.text_analytics as ta
 ```python
 text_processor = ta.TextProcessing()
 ```
-- For detailed usage examples and demonstrations, refer to the demo scripts available in the dutch_text_analytics/demos folder.
+- For detailed usage examples and demonstrations, refer to the demo scripts available in the [demos](https://github.com/allmin/dutch_text_analytics/tree/main/dutch_text_analytics/demos) folder.
 
 ## Modules Overview
 
@@ -58,6 +58,6 @@ text_processor = ta.TextProcessing(language='en')
 
 ## Demos
 
-- Check out the 'dutch_text_analytics/demos' folder for hands-on demonstrations and code examples showcasing the capabilities of Dutch Text Analytics across various NLP tasks.
+- Check out the [demos](https://github.com/allmin/dutch_text_analytics/tree/main/dutch_text_analytics/demos) folder for hands-on demonstrations and code examples showcasing the capabilities of Dutch Text Analytics across various NLP tasks.
 
 Feel free to contribute, report issues, or suggest improvements. Happy coding with Dutch Text Analytics!
