@@ -4,6 +4,7 @@ from setuptools.command.install import install
 import spacy
 import nltk
 from pathlib import Path
+from dutch_text_analytics import __version__
 
 
 with Path("README.md").open(encoding="utf-8") as f:
@@ -25,7 +26,7 @@ class CustomInstallCommand(install):
 
 setup(
     name='dutch_text_analytics',
-    version='0.1.1',
+    version=__version__,
     description='Dutch Text Analytics is a versatile toolkit designed to facilitate the exploration, execution, and validation of a diverse range of Natural Language Processing (NLP) tasks specifically tailored for the Dutch language. This repository provides a comprehensive set of tools, including code examples, scripts, and resources, to enhance and streamline your Dutch NLP projects.',
     long_description=long_description,
     long_description_content_type='text/markdown',
