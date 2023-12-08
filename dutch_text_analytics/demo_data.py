@@ -3,7 +3,7 @@ sentences = {"Meneer nam het medicijn in":["neemt medicatie in"],
              "Meneer injecteerde het geneesmiddel zelf":["injectie van medicatie"]}
 references = ["injectie van medicatie", "neemt medicatie in"]
 
-demo_text= ["""Naam: [Naam van de Patiënt 1]
+note= ["""Naam: [Naam van de Patiënt 1]
 Datum: [Datum van Rapport]
 Postoperatieve Status: De patiënt is stabiel en alert.
 Wond: Geen infectie of zwelling.
