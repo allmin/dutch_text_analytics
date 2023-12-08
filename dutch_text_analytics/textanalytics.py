@@ -28,8 +28,8 @@ class Decorators:
         return wrapper
 
 class TextProcessing:
-    """currently supports only dutch and english"""
-    def __init__(self, language, size='lg', verbose=False):
+    """currently supports only Dutch (default) and English (language='en')"""
+    def __init__(self, language='nl', size='lg', verbose=False):
         # Load spaCy model for English
         self.verbose = verbose
         if language == "en":
